@@ -8,7 +8,7 @@ import os
 import uuid
 import io
 
-os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["HF_HUB_OFFLINE"] = "0"
 app = FastAPI()
 router = APIRouter()
 
